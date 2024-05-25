@@ -25,6 +25,7 @@ Usage
 * Always remember that you can create, add, and remove new weapons at any time.
   You can make all these changes through C++. For this, we recommend first examining "Weapon.h".
 
+*  If you wish to change the overlay colors, you can search for "overlay" within the weapon blueprint and remove the material you see by clearing it.
 
 Additional Notes:
 * The weapon's data and access have been set up in two ways, and you can choose and continue or remove based on your game's preference. 
