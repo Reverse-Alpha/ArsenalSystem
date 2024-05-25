@@ -1,0 +1,39 @@
+Introduction
+Arsenal System is a weapon management system developed by Reverse-Alpha Studios.
+This guide provides step-by-step information on the installation, usage, and basic functions of Arsenal System.
+
+Installation
+* Download Sample: Open your Unreal Engine project and download the Arsenal System plugin from the Marketplace.
+* Inside the "ArsenalSystem" folder, right-click on the icon with the "ArsenalSystem.uproject" extension, 
+  and then click on "Generate Visual Studio project files." After the program regenerates, 
+  click on the same icon and confirm the prompt that appears. 
+  After a while, your project will open once it has added and generated the "binary" folder.
+
+
+Usage
+* First, enter the blueprints of the weapons that are already categorized and divided by rarity levels within the project. 
+  Inside, you can change the skeletal meshes to the desired skeletal meshes as you wish.
+
+* If you want to change the pre-determined values of the weapons' properties, such as damage, range, durability, price, etc.,
+  you need to access the code of the class to which the weapon is attached and make the changes there. 
+  If you have any issues or questions regarding this, do not hesitate to contact us. We will get back to you as soon as possible and assist you.
+
+* Currently, the system only includes two functionalities: equip and drop.
+  If you want to add desired sound cues, you can enter the blueprint, type "sound" in the general search,
+  and add the desired cues to the part that appears as changeable.
+
+* Always remember that you can create, add, and remove new weapons at any time.
+  You can make all these changes through C++. For this, we recommend first examining "Weapon.h".
+
+
+Additional Notes:
+* The weapon's data and access have been set up in two ways, and you can choose and continue or remove based on your game's preference. 
+  These are: the capsule collision overlap system and raycast. 
+  The code contains the necessary explanations for both. These will provide you with a simple and straightforward guide.
+
+* With a simple and straightforward UI widget system, you will see and learn how to access and use all the information in the weapon's structure data in an explanatory manner.
+
+* We are pleased to remind you that we will answer your questions within a maximum of 24 hours, so never hesitate to ask questions. 
+  Lastly, we would like to remind you that this system is related to weapon classification and attribute assigment, and we may not be able to provide detailed assistance on more 
+  advanced implementations such as your inventory system or different system like damage. These mentioned processes are very detailed and idfferent processes.
+  For these, you may need to seek professional help. 
